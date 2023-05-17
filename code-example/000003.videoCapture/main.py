@@ -10,7 +10,6 @@ while success:
     if cv2.waitKey(1) == 27:
         break
     cv2.imshow('Test camera', frame)
-    sleep(0.5)
     success, frame = cameraCapture.read()
 
 cameraCapture.release()
