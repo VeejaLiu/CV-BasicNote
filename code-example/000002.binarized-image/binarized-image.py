@@ -13,6 +13,6 @@ cv2.imwrite('binarized_image.jpg', binary_image)
 print(ret)
 
 # 在一个窗口中显示二值化后的图像
-cv2.imshow('binary', binary_image)
+cv2.imshow('Binary Image', binary_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
